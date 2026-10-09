@@ -1,0 +1,6 @@
+{
+  "block.faucet.turn": {
+    "subtitle": "subtitles.faucet.faucet.turn",
+    "sounds": ["faucet:block/faucet"]
+  }
+}

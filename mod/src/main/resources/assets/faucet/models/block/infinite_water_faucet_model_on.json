@@ -1,0 +1,7 @@
+{
+  "parent": "faucet:block/faucet_model_on",
+  "textures": {
+    "0": "faucet:block/infinite_water_faucet",
+    "particle": "faucet:block/infinite_water_faucet"
+  }
+}

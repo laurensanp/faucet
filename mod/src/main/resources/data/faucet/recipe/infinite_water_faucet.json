@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "faucet:faucet",
+    "minecraft:water_bucket"
+  ],
+  "result": {
+    "id": "faucet:infinite_water_faucet"
+  }
+}

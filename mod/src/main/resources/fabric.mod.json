@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "faucet",
+	"version": "${version}",
+	"name": "Faucet",
+	"description": "Standalone 26.2 port of the faucet from Supplementaries. Private use only.",
+	"authors": ["laurens"],
+	"contributors": ["MehVahdJukaar (original Supplementaries faucet)", "Plantkillable (original Supplementaries art)"],
+	"contact": {
+		"sources": "https://github.com/MehVahdJukaar/supplementaries"
+	},
+	"license": "Private use only - based on Supplementaries (Supplementaries Team License v1.5)",
+	"icon": "assets/faucet/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["net.laurens.faucet.Faucet"],
+		"client": ["net.laurens.faucet.client.FaucetClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

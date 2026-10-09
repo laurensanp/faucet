@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [{"condition": "minecraft:survives_explosion"}],
+      "entries": [{"type": "minecraft:item", "name": "faucet:infinite_water_faucet"}]
+    }
+  ],
+  "random_sequence": "faucet:blocks/infinite_water_faucet"
+}

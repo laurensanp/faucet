@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "S": "minecraft:stick",
+    "I": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    " S ",
+    "III",
+    "  I"
+  ],
+  "result": {
+    "id": "faucet:faucet"
+  }
+}

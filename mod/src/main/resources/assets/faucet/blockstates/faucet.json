@@ -1,0 +1,25 @@
+{
+  "multipart": [
+    {"when": {"AND": [{"facing": "north", "connected": "false"}, {"OR": [{"enabled": "true", "powered": "true"}, {"enabled": "false", "powered": "false"}]}]}, "apply": {"model": "faucet:block/faucet_model", "y": 0}},
+    {"when": {"AND": [{"facing": "north", "connected": "false"}, {"OR": [{"enabled": "true", "powered": "false"}, {"enabled": "false", "powered": "true"}]}]}, "apply": {"model": "faucet:block/faucet_model_on", "y": 0}},
+    {"when": {"AND": [{"facing": "north", "connected": "true"}, {"OR": [{"enabled": "true", "powered": "true"}, {"enabled": "false", "powered": "false"}]}]}, "apply": {"model": "faucet:block/faucet_jar", "y": 0}},
+    {"when": {"AND": [{"facing": "north", "connected": "true"}, {"OR": [{"enabled": "true", "powered": "false"}, {"enabled": "false", "powered": "true"}]}]}, "apply": {"model": "faucet:block/faucet_jar_on", "y": 0}},
+    {"when": {"AND": [{"facing": "east", "connected": "false"}, {"OR": [{"enabled": "true", "powered": "true"}, {"enabled": "false", "powered": "false"}]}]}, "apply": {"model": "faucet:block/faucet_model", "y": 90}},
+    {"when": {"AND": [{"facing": "east", "connected": "false"}, {"OR": [{"enabled": "true", "powered": "false"}, {"enabled": "false", "powered": "true"}]}]}, "apply": {"model": "faucet:block/faucet_model_on", "y": 90}},
+    {"when": {"AND": [{"facing": "east", "connected": "true"}, {"OR": [{"enabled": "true", "powered": "true"}, {"enabled": "false", "powered": "false"}]}]}, "apply": {"model": "faucet:block/faucet_jar", "y": 90}},
+    {"when": {"AND": [{"facing": "east", "connected": "true"}, {"OR": [{"enabled": "true", "powered": "false"}, {"enabled": "false", "powered": "true"}]}]}, "apply": {"model": "faucet:block/faucet_jar_on", "y": 90}},
+    {"when": {"AND": [{"facing": "south", "connected": "false"}, {"OR": [{"enabled": "true", "powered": "true"}, {"enabled": "false", "powered": "false"}]}]}, "apply": {"model": "faucet:block/faucet_model", "y": 180}},
+    {"when": {"AND": [{"facing": "south", "connected": "false"}, {"OR": [{"enabled": "true", "powered": "false"}, {"enabled": "false", "powered": "true"}]}]}, "apply": {"model": "faucet:block/faucet_model_on", "y": 180}},
+    {"when": {"AND": [{"facing": "south", "connected": "true"}, {"OR": [{"enabled": "true", "powered": "true"}, {"enabled": "false", "powered": "false"}]}]}, "apply": {"model": "faucet:block/faucet_jar", "y": 180}},
+    {"when": {"AND": [{"facing": "south", "connected": "true"}, {"OR": [{"enabled": "true", "powered": "false"}, {"enabled": "false", "powered": "true"}]}]}, "apply": {"model": "faucet:block/faucet_jar_on", "y": 180}},
+    {"when": {"AND": [{"facing": "west", "connected": "false"}, {"OR": [{"enabled": "true", "powered": "true"}, {"enabled": "false", "powered": "false"}]}]}, "apply": {"model": "faucet:block/faucet_model", "y": 270}},
+    {"when": {"AND": [{"facing": "west", "connected": "false"}, {"OR": [{"enabled": "true", "powered": "false"}, {"enabled": "false", "powered": "true"}]}]}, "apply": {"model": "faucet:block/faucet_model_on", "y": 270}},
+    {"when": {"AND": [{"facing": "west", "connected": "true"}, {"OR": [{"enabled": "true", "powered": "true"}, {"enabled": "false", "powered": "false"}]}]}, "apply": {"model": "faucet:block/faucet_jar", "y": 270}},
+    {"when": {"AND": [{"facing": "west", "connected": "true"}, {"OR": [{"enabled": "true", "powered": "false"}, {"enabled": "false", "powered": "true"}]}]}, "apply": {"model": "faucet:block/faucet_jar_on", "y": 270}},
+    {"when": {"AND": [{"connected": "false", "liquid": "water"}, {"OR": [{"enabled": "true", "powered": "false"}, {"enabled": "false", "powered": "true"}]}]}, "apply": {"model": "faucet:block/stream_water"}},
+    {"when": {"AND": [{"connected": "false", "liquid": "lava"}, {"OR": [{"enabled": "true", "powered": "false"}, {"enabled": "false", "powered": "true"}]}]}, "apply": {"model": "faucet:block/stream_lava"}},
+    {"when": {"AND": [{"connected": "false", "liquid": "honey"}, {"OR": [{"enabled": "true", "powered": "false"}, {"enabled": "false", "powered": "true"}]}]}, "apply": {"model": "faucet:block/stream_honey"}},
+    {"when": {"AND": [{"connected": "false", "liquid": "powder_snow"}, {"OR": [{"enabled": "true", "powered": "false"}, {"enabled": "false", "powered": "true"}]}]}, "apply": {"model": "faucet:block/stream_powder_snow"}},
+    {"when": {"AND": [{"connected": "false", "liquid": "other"}, {"OR": [{"enabled": "true", "powered": "false"}, {"enabled": "false", "powered": "true"}]}]}, "apply": {"model": "faucet:block/stream_other"}}
+  ]
+}

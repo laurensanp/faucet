@@ -1,0 +1,12 @@
+{
+	"schemaVersion": 1,
+	"id": "faucet-test",
+	"version": "1.0.0",
+	"name": "Faucet Tests",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-gametest": ["net.laurens.faucet.test.FaucetGameTests"],
+		"fabric-client-gametest": ["net.laurens.faucet.test.FaucetClientGameTest"]
+	},
+	"depends": {"faucet": "*"}
+}
